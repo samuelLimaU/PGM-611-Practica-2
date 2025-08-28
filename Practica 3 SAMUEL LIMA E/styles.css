@@ -1,0 +1,99 @@
+body {
+    background: #1c1c1c;
+    background-image: url("img/AnkhoftheTriarch9thEdition-removebg-preview.png");
+      background-repeat: no-repeat;
+        background-attachment: fixed;
+  background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+h1 {
+    margin-top: 40px;
+    color: #29f555;
+    font-family: 'Lucida Console';
+}
+
+div {
+    background: #535151;
+    padding: 32px 24px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    min-width: 320px;
+    margin-top: 24px;
+}
+
+input, select {
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px;
+    border: 1px solid #292727;
+    border-radius: 6px;
+    outline: none;
+}
+
+img{
+    margin: 5px;
+}
+
+img#trazyn {
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    position: relative;
+    top : -70px;
+    left: 150px;
+}
+
+img#diag {
+    width: 100px;
+    height: 70px;
+    align-self: center;
+    position: relative;
+    top : -50px;
+    left: 70px;
+}
+
+
+button {
+    padding: 10px;
+    background: #1ccd04;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+button:hover {
+    background: #4bd108;
+}
+
+p {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+select {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    width: 80px;
+    background: #f7f7fa;
+    color: #0fa62d;
+    border: 1px solid #3a3838;
+    border-radius: 6px;
+    margin: 0 auto;
+    display: block;
+}
+
+select option {
+    text-align: center;
+    font-size: 20px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Reto: Aplicación Interactiva</title>
+    <!-- <script src="loader.js"></script> no hay necesidad de que exista-->
+    <script src="calculator.js" async></script> <!-- conviene que cargue en paralelo a la par del validador y el app -->
+    <script src="ui.js" defer></script> <!-- este script indicaria que toda la UI esta cargado -->
+    <script src="validator.js" async></script> <!-- este script conviene de q cargue junto al principal -->
+    <script src="app.js" async></script> <!-- obtiene todas las funciones conviene cargar junto al HTML -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Calculadora Interactiva</h1>
+    <div id="app">
+        <input type="number" id="num1" placeholder="Número 1">
+        <select id="operation">
+            <option value="add">+</option>
+            <option value="subtract">-</option>
+            <option value="multiply">x</option>
+            <option value="divide">/</option>
+        </select>
+        <input type="number" id="num2" placeholder="Número 2">
+        <button id="calculate">Calcular</button>
+        <p id="result"></p>
+    </div>
+    <img id="diag" src="img/bloque-diag-removebg-preview.png" alt="a" style="display:none">
+    <img id="trazyn" src="img/1456082162066-removebg-preview.png" alt="a" style="display:none">
+</body>
+</html>
